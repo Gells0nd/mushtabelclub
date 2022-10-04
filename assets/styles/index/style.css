@@ -258,6 +258,36 @@ body {
   color: #9d9296;
 }
 
+.instagram {
+  background-color: #EDC7B7;
+}
+.instagram-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.instagram-title {
+  text-align: center;
+  font-size: 38px;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+.instagram-text {
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  padding-bottom: 40px;
+}
+.instagram-text-link {
+  color: gray;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.instagram-text-link:hover {
+  transition: 0.2s;
+  color: #000;
+}
+
 .up-btn {
   position: fixed;
   right: 10px;
@@ -314,9 +344,9 @@ body {
   position: fixed;
   visibility: hidden;
   top: 0;
-  left: -100%;
+  left: 100%;
   width: 100%;
-  height: 300px;
+  height: 330px;
   margin: 0;
   padding: 35px 0;
   list-style: none;

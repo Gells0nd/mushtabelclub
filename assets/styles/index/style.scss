@@ -301,6 +301,41 @@ body {
     }
 }
 
+.instagram {
+    background-color: #EDC7B7;
+
+    &-wrapper {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    &-title {
+        text-align: center;
+        font-size: 38px;
+        padding-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    &-text {
+        font-size: 28px;
+        text-align: center;
+        display: block;
+        padding-bottom: 40px;
+
+        &-link {
+            color: gray;
+            text-decoration: none;
+            transition: 0.2s;
+
+            &:hover {
+                transition: 0.2s;
+                color: #000;
+            }
+        }
+    }
+}
+
 .up-btn {
     position: fixed;
     right: 10px;
@@ -354,9 +389,9 @@ body {
     position: fixed;
     visibility: hidden;
     top: 0;
-    left: -100%;
+    left: 100%;
     width: 100%;
-    height: 300px;  margin: 0;
+    height: 330px;  margin: 0;
     padding: 35px 0;  list-style: none;
     text-align: center;  background-color: #ECEFF1;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
