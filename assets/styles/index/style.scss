@@ -301,6 +301,97 @@ body {
     }
 }
 
+.goals {
+    background-color: #EDC7B7;
+    padding-bottom: 50px;
+
+    &-wrapper {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    &-title {
+        padding-top: 50px;
+        text-align: center;
+        font-size: 34px;
+        margin-bottom: 50px;
+    }
+
+    &-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        &-goal {
+            margin-top: 30px;
+            width: 100%;
+            max-width: 500px;
+
+            &-title {
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+
+.owners {
+    background-color: #EEE2DC;
+
+    &-wrapper {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    &-title {
+        padding-top:60px;
+        font-size: 34px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    &-block {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 70px;
+
+        &-owner {
+            display: flex;
+
+            &-avatar {
+                width: 240px;
+                height: 345px;
+                // display: block;
+                background-color: #333;
+            }
+
+            &-text {
+                margin-left: 10px;
+
+                &-title {
+                    font-size: 22px;
+                }
+
+                &-subtitle {
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-top: 4px;
+                    margin-bottom: 256px;
+                }
+
+                &-social {
+                    color: #000;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+
 .instagram {
     background-color: #EDC7B7;
 
@@ -335,6 +426,15 @@ body {
         }
     }
 }
+
+
+
+
+
+
+
+
+
 
 .up-btn {
     position: fixed;

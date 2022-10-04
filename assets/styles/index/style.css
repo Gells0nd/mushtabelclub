@@ -258,6 +258,81 @@ body {
   color: #9d9296;
 }
 
+.goals {
+  background-color: #EDC7B7;
+  padding-bottom: 50px;
+}
+.goals-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.goals-title {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 50px;
+}
+.goals-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.goals-list-goal {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 500px;
+}
+.goals-list-goal-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.owners {
+  background-color: #EEE2DC;
+}
+.owners-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.owners-title {
+  padding-top: 60px;
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.owners-block {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 70px;
+}
+.owners-block-owner {
+  display: flex;
+}
+.owners-block-owner-avatar {
+  width: 240px;
+  height: 345px;
+  background-color: #333;
+}
+.owners-block-owner-text {
+  margin-left: 10px;
+}
+.owners-block-owner-text-title {
+  font-size: 22px;
+}
+.owners-block-owner-text-subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 4px;
+  margin-bottom: 256px;
+}
+.owners-block-owner-text-social {
+  color: #000;
+  display: block;
+}
+
 .instagram {
   background-color: #EDC7B7;
 }
