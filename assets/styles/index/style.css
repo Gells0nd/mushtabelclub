@@ -266,6 +266,7 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 .goals-title {
   padding-top: 50px;
@@ -296,6 +297,7 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 .owners-title {
   padding-top: 60px;
@@ -318,6 +320,7 @@ body {
 }
 .owners-block-owner-text {
   margin-left: 10px;
+  position: relative;
 }
 .owners-block-owner-text-title {
   font-size: 22px;
@@ -326,11 +329,52 @@ body {
   font-size: 14px;
   font-weight: 400;
   margin-top: 4px;
-  margin-bottom: 256px;
 }
 .owners-block-owner-text-social {
   color: #000;
   display: block;
+  position: absolute;
+  bottom: 0;
+}
+
+.mission {
+  background-color: #EDC7B7;
+}
+.mission-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.mission-title {
+  text-align: center;
+  font-size: 38px;
+  padding-top: 60px;
+  margin-bottom: 50px;
+}
+.mission-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px;
+}
+.mission-content-img {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+.mission-content-block {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.mission-content-block-img {
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin: 0 auto;
+}
+.mission-content-block-text {
+  padding-top: 25px;
 }
 
 .instagram {
@@ -340,6 +384,7 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 .instagram-title {
   text-align: center;

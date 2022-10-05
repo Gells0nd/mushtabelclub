@@ -309,6 +309,7 @@ body {
         width: 100%;
         max-width: 1200px;
         margin: 0 auto;
+        padding: 0 20px;
     }
 
     &-title {
@@ -344,6 +345,7 @@ body {
         width: 100%;
         max-width: 1200px;
         margin: 0 auto;
+        padding: 0 20px;
     }
 
     &-title {
@@ -370,6 +372,7 @@ body {
 
             &-text {
                 margin-left: 10px;
+                position: relative;
 
                 &-title {
                     font-size: 22px;
@@ -379,18 +382,65 @@ body {
                     font-size: 14px;
                     font-weight: 400;
                     margin-top: 4px;
-                    margin-bottom: 256px;
                 }
 
                 &-social {
                     color: #000;
                     display: block;
+                    position: absolute;
+                    bottom: 0;
                 }
             }
         }
     }
 }
 
+.mission {
+    background-color: #EDC7B7;
+
+    &-wrapper {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    &-title {
+        text-align: center;
+        font-size: 38px;
+        padding-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    &-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 80px;
+
+        &-img {
+            width: 50px;
+            height: 50px;
+            display: block;
+        }
+
+        &-block {
+            margin-left: 50px;
+            margin-right: 50px;
+
+            &-img {
+                width: 120px;
+                height: 120px;
+                display: block;
+                margin: 0 auto;
+            }
+
+            &-text {
+                padding-top: 25px;
+            }
+        }
+    }
+}
 
 .instagram {
     background-color: #EDC7B7;
@@ -399,6 +449,7 @@ body {
         width: 100%;
         max-width: 1200px;
         margin: 0 auto;
+        padding: 0 20px;
     }
 
     &-title {
@@ -426,15 +477,6 @@ body {
         }
     }
 }
-
-
-
-
-
-
-
-
-
 
 .up-btn {
     position: fixed;
