@@ -295,7 +295,7 @@ body {
 }
 .owners-wrapper {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -329,6 +329,8 @@ body {
   font-size: 14px;
   font-weight: 400;
   margin-top: 4px;
+  width: 100%;
+  max-width: 330px;
 }
 .owners-block-owner-text-social {
   color: #000;
